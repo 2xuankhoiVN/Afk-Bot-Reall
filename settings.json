@@ -6,8 +6,8 @@
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
+    "ip": "emerald.magmanode.com",
+    "port": 28132,
     "version": "1.19.3"
   },
 
