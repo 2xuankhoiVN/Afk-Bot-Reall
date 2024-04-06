@@ -111,12 +111,6 @@ function createBot() {
       }
    });
 
-   bot.on('chat', (username, message) => {
-      if (config.utils['chat-log']) {
-         logger.info(`<${username}> ${message}`);
-      }
-   });
-
    bot.on('goal_reached', () => {
       if(config.position.enabled) {
          logger.info(
